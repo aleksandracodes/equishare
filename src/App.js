@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+const initialFriends = [
+  {
+    id: 118836,
+    name: 'Laura',
+    image: 'https://i.pravatar.cc/1786577',
+    balance: -7,
+  },
+  {
+    id: 933372,
+    name: 'Julia',
+    image: 'https://i.pravatar.cc/48?u=171217',
+    balance: 20,
+  },
+  {
+    id: 499476,
+    name: 'Thomas',
+    image: 'https://i.pravatar.cc/48?u=190639',
+    balance: 0,
+  },
+];
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
