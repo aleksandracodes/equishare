@@ -1,8 +1,9 @@
 :root {
-  --color-lightest: #fff4e6;
-  --color-light: #ffe8cc;
-  --color-medium: #ffa94d;
-  --color-dark: #ff922b;
+  --color-lightest: #ebf3e8;
+  --color-light: #d2e3c8;
+  --color-medium: #a6cea4;
+  --color-dark: #86a789;
+  --font: #3a4d39;
 }
 
 * {
@@ -100,11 +101,11 @@ body {
 }
 
 .green {
-  color: #66a80f;
+  color: #107b17;
 }
 
 .red {
-  color: #e03131;
+  color: #e90d0d;
 }
 
 form {
